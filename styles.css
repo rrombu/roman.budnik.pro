@@ -1,11 +1,13 @@
-html {
+body, html {
+  height: 100%;
   font-family: 'Open Sans', sans-serif;
 }
-.outer {
-  display: table;
-  position: absolute;
+.bg {
   height: 100%;
-  width: 100%;
+  background-image: linear-gradient(to bottom right, cyan, white);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .outer {
   display: table;
