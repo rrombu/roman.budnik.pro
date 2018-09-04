@@ -1,3 +1,6 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
 .outer {
   display: table;
   position: absolute;
