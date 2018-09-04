@@ -1,6 +1,15 @@
 body, html {
   height: 100%;
+  margin: 0;
   font-family: 'Open Sans', sans-serif;
+}
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
 .bg {
   height: 100%;
@@ -27,5 +36,5 @@ body, html {
 table {
   border: 0px;
   border-collapse: collapse;
-  width: 100%;
+  width: 50%;
 }
