@@ -22,3 +22,8 @@ html {
   margin-right: auto; 
   width: 50%;
 }
+table {
+  border: 0px;
+  border-collapse: collapse;
+  width: 100%;
+}
