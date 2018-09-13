@@ -2,6 +2,20 @@
   width: 100px;
   height: 100px;
   margin: auto;
-  background: linear-gradient(to left, #d9a7c7, #fffcdc);
+  background-color: #d8dede;
+  background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
   transform: rotate(45deg);
+}
+body:before {
+  content: '';
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/img/background.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  filter: brightness(50%);
+  z-index: -10;
 }
