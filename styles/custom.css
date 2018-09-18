@@ -19,3 +19,15 @@ body:before {
   filter: brightness(50%);
   z-index: -10;
 }
+hr {
+  background-color: whitesmoke;
+  opacity: 0.3;
+  border: none;
+  display: block;
+  height: 1px;
+  width: 30%;
+  min-width: 220px;
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
