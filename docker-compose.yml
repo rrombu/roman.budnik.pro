@@ -1,0 +1,14 @@
+version: "3"
+services:
+
+  site:
+    build: 
+      context: .
+      args:
+        bulma_version: 0.7.2
+    image: mysite:latest
+    expose:
+      - "8034"
+    labels:
+      - traefik.backend=$TRAEFIK_BACKEND
+      - traefik.frontend.rule=Host:$TRAEFIK_URL
