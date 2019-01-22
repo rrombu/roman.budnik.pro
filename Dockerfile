@@ -1,4 +1,10 @@
-FROM ruby:alpine
+FROM python:alpine as localization
+
+RUN pip install Jinja2
+COPY mainpage /
+RUN python main.py
+
+FROM ruby:alpine as sass
 
 ARG bulma_version
 
@@ -15,4 +21,5 @@ RUN sass --sourcemap=none bulma.scss bulma.css
 FROM pierrezemb/gostatic:latest
 
 COPY html /srv/http/
-COPY --from=0 /bulma.css /srv/http/styles/
+COPY --from=localization /results /srv/http/
+COPY --from=sass /bulma.css /srv/http/styles/

@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2d1f38">
+  <link href="/styles/bulma.css" rel="stylesheet">
+  <link href="/styles/custom.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" rel="stylesheet" media="all">
+  <title>{{ title }}</title>
+</head>
+<body>
+<section class="hero is-primary is-bold is-fullheight">
+  <div class="hero-head"></div>
+  <div class="hero-body">
+    <div class="column has-text-centered" style="margin:auto;max-width:700px">
+      <div style="height:140px" class="animated fadeInDown slow delay-1s">
+        <div class="floating"><div id="rhombus"></div></div>
+      </div>
+      <h1 class="title is-1 animated fadeIn slow">{{ greeting }}</h1>
+      <h2 class="title is-6 animated fadeIn slow" style="color:#f5f5f5a8"><span class="fas fa-map-marker-alt fa-fw"></span> {{ location }}</h2>
+      <p style="text-align:justify" class="animated fadeIn">{{ intro }}</p>
+      <hr align="center" width="100" size="1" class="animated zoomIn slow delay-1s">
+      <div class="animated fadeInUp slow delay-1s">
+        <p align="center">
+        <a href="#" class="hvr-icon-grow">
+          <i class="fab fa-linkedin fa-2x fa-fw hvr-icon"></i>
+        </a>
+        <a href="#" class="hvr-icon-grow">
+          <i class="fab fa-github fa-2x fa-fw hvr-icon"></i>
+        </a>
+        <a href="#" class="hvr-icon-grow">
+          <i class="fab fa-telegram-plane fa-2x fa-fw hvr-icon"></i>
+        </a>
+        <a href="#" class="hvr-icon-grow">
+          <i class="fas fa-envelope fa-2x fa-fw hvr-icon"></i>
+        </a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="hero-foot">
+    <div class="container has-text-centered">
+      <i class="far fa-check-circle animated fadeInDown delay-1s slower"></i>
+    </div>
+  </div>
+</section>
+</body>
+</html>
