@@ -5,7 +5,7 @@ services:
     build: 
       context: .
       args:
-        bulma_version: ${BULMA_VERSION:-0.7.2}
+        bulma_version: ${BULMA_VERSION:-0.7.4}
     image: mysite:latest
     expose:
       - "8043"
