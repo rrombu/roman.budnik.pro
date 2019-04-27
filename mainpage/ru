@@ -1,5 +1,7 @@
 { "locale": "ru",
   "title": "Rombu",
+  "language_1": "<a href=\"../en\">english</a>",
+  "language_2": "<a href=\"../ru\">русский</a>",
   "greeting": "Hi, my name is Roman Budnik",
   "location": "Россия, Москва",
   "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo at ex fermentum viverra vel sit amet massa. Cras pellentesque vel neque id dignissim. Suspendisse mauris urna, dictum nec tempus vel, vehicula ac ante. Phasellus tincidunt vestibulum porttitor. Aliquam dignissim rhoncus lacus et tristique. Cras egestas blandit posuere. Suspendisse in maximus purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
