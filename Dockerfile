@@ -1,10 +1,10 @@
-FROM python:alpine as localization
+FROM docker.io/python:alpine as localization
 
 RUN pip install Jinja2
 COPY mainpage /
 RUN python main.py
 
-FROM ruby:alpine as sass
+FROM docker.io/ruby:alpine as sass
 
 ARG bulma_version
 
@@ -18,7 +18,7 @@ COPY ./html/styles/bulma.scss .
 
 RUN sass --sourcemap=none bulma.scss bulma.css
 
-FROM pierrezemb/gostatic:latest
+FROM docker.io/pierrezemb/gostatic:latest
 
 COPY html /srv/http/
 COPY --from=localization /results /srv/http/
