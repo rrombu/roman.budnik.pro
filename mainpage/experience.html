@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2d1f38">
+  <link href="/styles/bulma.css" rel="stylesheet">
+  <link href="/styles/custom.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/03fa89dd74.js" crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" rel="stylesheet" media="all">
+  <title>{{ title }}</title>
+</head>
+<body>
+<section class="hero is-primary is-bold is-fullheight">
+  <div class="hero-head" style="opacity:0.8">
+      <nav class="breadcrumb is-centered is-small" aria-label="breadcrumbs">
+        <ul>
+          <li class="is-active">{{ language_active }}</li>
+          <li>{{ language_secondary }}</li>
+        </ul>
+      </nav>
+  </div>
+  <div class="hero-body">
+    <div class="column has-text-centered" style="margin:auto;max-width:700px">
+      <div style="height:140px" class="animated fadeInDown slow delay-1s">
+        <div class="floating"><div id="rhombus"></div></div>
+      </div>
+      <div class="content">
+      <p style="text-align:centered" class="animate__animated animate__fadeIn"><a href="javascript:history.back()" class="pagelink hvr-skew">{{ return }}</a></p>
+      <h1 class="title is-4 animate__animated animate__fadeIn animate__slow">2022</h1>
+      <ul style="text-align:left" class="animate__animated animate__fadeIn">
+        {{ exp_22 }}
+      </ul>
+      <h4 class="title is-4 animate__animated animate__fadeIn animate__slow">2021</h4>
+      <ul style="text-align:left" class="animate__animated animate__fadeIn">
+        {{ exp_21 }}
+      </ul>
+      <h4 class="title is-4 animate__animated animate__fadeIn animate__slow">2019 - 2020</h4>
+      <ul style="text-align:left" class="animate__animated animate__fadeIn">
+        {{ exp_19_20 }}
+      </ul>
+      <h4 class="title is-4 animate__animated animate__fadeIn animate__slow">2015 - 2018</h4>
+      <ul style="text-align:left" class="animate__animated animate__fadeIn">
+        {{ exp_15_18 }}
+      </ul>
+      <h4 class="title is-4 animate__animated animate__fadeIn animate__slow">2012 - 2014</h4>
+      <ul style="text-align:left" class="animate__animated animate__fadeIn">
+        {{ exp_12_14 }}
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="hero-foot" style="opacity:0.8">
+    <div class="animate__animated animate__fadeInUp animate__slow animate__delay-2s">
+      <nav class="breadcrumb is-centered is-small" aria-label="breadcrumbs">
+        <ul>
+          <li><a href="https://bulma.io" target="_blank" rel="noopener noreferrer">{{ bulma }}</a></li>
+          <li><a href="https://unsplash.com/photos/NFs6dRTBgaM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank" rel="noopener noreferrer">{{ background_credit }}</a></li>
+        <ul>
+      </nav>
+    </div>
+  </div>
+</section>
+</body>
+</html>

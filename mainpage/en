@@ -1,10 +1,17 @@
 { "locale": "en",
   "title": "Rombu",
-  "language_1": "<a href=\"../ru\">русский</a>",
-  "language_2": "<a href=\"../en\">english</a>",
+  "language_active": "<a href=\"../en\">english</a>",
+  "language_secondary": "<a href=\"../ru\">русский</a>",
   "greeting": "Hi, my name is Roman Budnik",
   "location": "Russia, Moscow",
   "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo at ex fermentum viverra vel sit amet massa. Cras pellentesque vel neque id dignissim. Suspendisse mauris urna, dictum nec tempus vel, vehicula ac ante. Phasellus tincidunt vestibulum porttitor. Aliquam dignissim rhoncus lacus et tristique. Cras egestas blandit posuere. Suspendisse in maximus purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
   "bulma": "Made with Bulma",
-  "background_credit": "Background photo by Ferdinand Stöhr on Unsplash"
+  "background_credit": "Background photo by Ferdinand Stöhr on Unsplash",
+  "experience_link": "My work experience",
+  "return": "Go back",
+  "exp_22": "<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>\n<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>",
+  "exp_21": "<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>\n<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>",
+  "exp_19_20": "<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>\n<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>",
+  "exp_15_18": "<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>\n<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>",
+  "exp_12_14": "<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>\n<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>"
 }
