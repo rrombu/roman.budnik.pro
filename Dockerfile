@@ -11,8 +11,7 @@ ARG bulma_version
 RUN apk add --no-cache make gcc libc-dev && \
     gem install sass && \
     wget https://github.com/jgthms/bulma/releases/download/$bulma_version/bulma-$bulma_version.zip && \
-    unzip bulma-$bulma_version.zip && \
-    mv bulma-$bulma_version bulma
+    unzip bulma-$bulma_version.zip
 
 COPY ./html/styles/bulma.scss .
 

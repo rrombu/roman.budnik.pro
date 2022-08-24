@@ -1,12 +1,12 @@
 version: "3"
 services:
-
   site:
     build: 
       context: .
       args:
-        bulma_version: ${BULMA_VERSION:-0.7.4}
+        bulma_version: ${BULMA_VERSION:-0.9.4}
     image: mysite:latest
+    container_name: mysite
     expose:
       - "8043"
     labels:
