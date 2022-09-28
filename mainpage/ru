@@ -6,5 +6,13 @@
   "location": "Россия, Москва",
   "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo at ex fermentum viverra vel sit amet massa. Cras pellentesque vel neque id dignissim. Suspendisse mauris urna, dictum nec tempus vel, vehicula ac ante. Phasellus tincidunt vestibulum porttitor. Aliquam dignissim rhoncus lacus et tristique. Cras egestas blandit posuere. Suspendisse in maximus purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
   "bulma": "Создано с использованием Bulma",
-  "background_credit": "Фон от Ferdinand Stöhr с Unsplash"
+  "background_credit": "Фон от Ferdinand Stöhr с Unsplash",
+  "experience_link": "Мой опыт работы",
+  "return": "Вернуться",
+  "experience_description": "", 
+  "experience_22": "<li></li>",
+  "experience_21": "<li></li>",
+  "experience_19_20": "<li></li>",
+  "experience_15_18": "<li></li>",
+  "experience_12_14": "<li></li>"
 }

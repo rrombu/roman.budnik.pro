@@ -9,9 +9,10 @@
   "background_credit": "Background photo by Ferdinand Stöhr on Unsplash",
   "experience_link": "My work experience",
   "return": "Go back",
-  "exp_22": "<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>\n<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>",
-  "exp_21": "<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>\n<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>",
-  "exp_19_20": "<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>\n<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>",
-  "exp_15_18": "<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>\n<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>",
-  "exp_12_14": "<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>\n<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>"
+  "experience_description": "", 
+  "experience_22": "<li></li>",
+  "experience_21": "<li></li>",
+  "experience_19_20": "<li></li>",
+  "experience_15_18": "<li></li>",
+  "experience_12_14": "<li></li>"
 }
