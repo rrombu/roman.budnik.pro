@@ -1,7 +1,7 @@
 version: "3"
 services:
   site:
-    build: 
+    build:
       context: .
       args:
         bulma_version: ${BULMA_VERSION:-0.9.4}
@@ -11,18 +11,26 @@ services:
       - "8043"
     labels:
       - traefik.enable=true
-      - traefik.http.routers.mysite.rule=Host(`dev.local`)
+      - traefik.http.routers.mysite.rule=Host(`roman.budnik.pro`)
       - traefik.http.services.mysite.loadbalancer.server.port=8043
+      - traefik.http.routers.mysite.entrypoints=websecure
+      - traefik.http.routers.mysite.tls.certresolver=letsencrypt
   proxy:
     image: docker.io/traefik:latest
     container_name: traefik
     volumes:
+      - ./letsencrypt:/letsencrypt
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - 80:80
+      - 443:443
     restart: unless-stopped
     command:
       - --log.level=INFO
       - --providers.docker=true
       - --providers.docker.exposedbydefault=false
       - --entrypoints.web.address=:80
+      - --entrypoints.websecure.address=:443
+      - --certificatesresolvers.letsencrypt.acme.tlschallenge=true
+      - --certificatesresolvers.letsencrypt.acme.email=roman@budnik.pro
+      - --certificatesresolvers.letsencrypt.acme.storage=/letsencrypt/acme.json
