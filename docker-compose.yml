@@ -10,5 +10,15 @@ services:
     expose:
       - "8043"
     labels:
-      - traefik.backend=$TRAEFIK_BACKEND
-      - traefik.frontend.rule=Host:$TRAEFIK_URL
+      - traefik.enable=true
+      - traefik.http.routers.mysite.rule=Host(`dev.local`)
+      - traefik.http.services.mysite.loadbalancer.server.port=8043
+  proxy:
+    image: docker.io/traefik:latest
+    container_name: traefik
+    volumes:
+      - ./traefik.yml:/etc/traefik/traefik.yml
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 80:80
+    restart: unless-stopped
