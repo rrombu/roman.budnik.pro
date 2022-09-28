@@ -17,8 +17,12 @@ services:
     image: docker.io/traefik:latest
     container_name: traefik
     volumes:
-      - ./traefik.yml:/etc/traefik/traefik.yml
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - 80:80
     restart: unless-stopped
+    command:
+      - --log.level=INFO
+      - --providers.docker=true
+      - --providers.docker.exposedbydefault=false
+      - --entrypoints.web.address=:80

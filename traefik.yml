@@ -1,8 +1,0 @@
-log:
-  level: INFO
-
-# Docker configuration backend
-providers:
-  docker:
-    exposedByDefault: false
-    network: traefik
