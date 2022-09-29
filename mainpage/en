@@ -4,15 +4,15 @@
   "language_secondary": "<a href=\"../ru\">русский</a>",
   "greeting": "Hi, my name is Roman Budnik",
   "location": "Russia, Moscow",
-  "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo at ex fermentum viverra vel sit amet massa. Cras pellentesque vel neque id dignissim. Suspendisse mauris urna, dictum nec tempus vel, vehicula ac ante. Phasellus tincidunt vestibulum porttitor. Aliquam dignissim rhoncus lacus et tristique. Cras egestas blandit posuere. Suspendisse in maximus purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+  "intro": "I am an engineer in one of companies in space industry working on system integration for infrastructure: I choose and implement various software solutions for operating cloud infrastructure and developers working with it. In my free time I like to work on home projects, building home network and deploying different useful tools.",
   "bulma": "Made with Bulma",
   "background_credit": "Background photo by Ferdinand Stöhr on Unsplash",
   "experience_link": "My work experience",
   "return": "Go back",
-  "experience_description": "", 
-  "experience_22": "<li></li>",
-  "experience_21": "<li></li>",
-  "experience_19_20": "<li></li>",
-  "experience_15_18": "<li></li>",
-  "experience_12_14": "<li></li>"
+  "experience_description": "This page contains skills and experiences obtained by me during my work and home projects",
+  "experience_22": "<li>Modification of existing Gitlab CI/CD pipelines</li>\n<li>Service migration between kubernetes clusters</li>\n<li>Using and developing Helm-charts</li>\n<li>Elasticsearch integration with S3 object storage (Minio)</li>\n<li>Elasticsearch cluster and index backup</li>",
+  "experience_21": "<li>Created CI/CD pipelines in Gitlab</li>\n<li>Implementation of high availability for infrastructure management server using Pacemaker and Bacula</li>\n<li>Deployment of Minio S3-compatible object storage to Kubernetes</li>\n<li>Kubernetes cluster deployment automation using Puppet</li><li>Implementation of Elastic Beats monitoring solution</li>\n",
+  "experience_19_20": "<li>Deployment of bare-metal Kubernetes cluster</li>\n<li>Experiments with RDMA and MPI technologies on Kubernetes cluster</li>\n<li>More use cases of Elastic Stack for developers needs (accumulation and visualisation of audit information and data catalogs)</li>\n<li>Extraction of data from PostgreSQL databases to Elasticsearch using Logstash with data enrichment</li>\n<li>Deployment of Consul system as a key-value store</li>\n<li>Mentoring experience</li>\n",
+  "experience_15_18": "<li>Development of modules for Puppet orchestration system</li>\n<li>Running Docker containers, building Docker images</li>\n<li>Docker-compose usage</li>\n<li>Integration of Elastic Stack (ELK) as a centralized logging solution</li>\n<li>Improving Nagios monitoring system, implementing distributed monitoring using NRDP</li>\n<li>Automatization of deployment and configuration of IBM Spectrum Protect (Tivoli Storage Manager) storage solution</li>\n<li>Worked on integration of Mattermost as a messaging service solution for a department</li>\n",
+  "experience_10_14": "<li>Python-scripts development</li>\n<li>Setup and configuration of SCADA-system</li>\n<li>Creation of interactive SCADA-schemes</li>\n<li>Maintenance of software and hardware system deployment</li>\n<li>Translation of gaming-related videos from English to Russian language</li>\n"
 }
