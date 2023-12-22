@@ -6,7 +6,7 @@ RUN python main.py
 
 FROM docker.io/ruby:alpine as sass
 
-ARG bulma_version
+ARG bulma_version=0.9.4
 
 RUN apk add --no-cache make gcc libc-dev && \
     gem install sass && \
