@@ -16,7 +16,7 @@ body:before {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  filter: brightness(50%);
+  filter: brightness(20%);
   z-index: -10;
 }
 hr {
