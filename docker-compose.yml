@@ -5,8 +5,8 @@ services:
       context: .
       args:
         bulma_version: ${BULMA_VERSION:-0.9.4}
-    image: mysite:latest
-    container_name: mysite
+    image: rombu/roman.budnik.pro:latest
+    container_name: roman.budnik.pro
     expose:
       - "8043"
     labels:
