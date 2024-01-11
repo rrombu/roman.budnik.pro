@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2d1f38">
+  <link rel=icon href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15/svgs/solid/vector-square.svg>
+  <link href="/styles/bulma.css" rel="stylesheet">
+  <link href="/styles/custom.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/03fa89dd74.js" crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" rel="stylesheet" media="all">
+  <title>{{ title }}</title>
+</head>
+<body>
+<section class="hero is-primary is-bold is-fullheight">
+  <div class="hero-head" style="opacity:0.8">
+      <nav class="breadcrumb is-centered is-small" aria-label="breadcrumbs">
+        <ul>
+          <li class="is-active">{{ language_active }}</li>
+          <li>{{ language_secondary }}</li>
+        </ul>
+      </nav>
+  </div>
+  <div class="hero-body">
+    <div class="column has-text-centered" style="margin:auto;max-width:700px">
+      <div style="height:140px">
+        <div class="floating"><div id="rhombus"></div></div>
+      </div>
+      <div class="content">
+      <p style="text-align:center" class="animate__animated animate__fadeIn">{{ techstack_description }}</p>
+      <a href="javascript:history.back()" class="button is-ghost hvr-shrink animate__animated animate__fadeIn">{{ return }}</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-foot" style="opacity:0.8">
+    <div class="animate__animated animate__fadeInUp animate__slow animate__delay-2s">
+      <nav class="breadcrumb is-centered is-small" aria-label="breadcrumbs">
+        <ul>
+          <li><a href="https://bulma.io" target="_blank" rel="noopener noreferrer">{{ bulma }}</a></li>
+        <ul>
+      </nav>
+    </div>
+  </div>
+</section>
+</body>
+</html>
