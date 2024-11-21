@@ -6,7 +6,7 @@ import os
 import logging
 
 logging.basicConfig(format='[%(levelname)s]\t%(message)s',level=logging.INFO)
-languages = ['en','ru']
+languages = ['en']
 logging.info('Localizations to make: {}'.format(languages))
 templates = ['index.html','experience.html','techstack.html']
 logging.info('Templates to fill: {}'.format(templates))

@@ -16,7 +16,7 @@
 </head>
 <body>
 <section class="hero is-primary is-bold is-fullheight">
-  <div class="hero-head" style="opacity:0.8">
+  <div class="hero-head" style="opacity:0.8" hidden>
       <nav class="breadcrumb is-centered is-small" aria-label="breadcrumbs">
         <ul>
           <li class="is-active">{{ language_active }}</li>
@@ -30,10 +30,8 @@
         <div class="floating"><div id="rhombus"></div></div>
       </div>
       <h1 class="title is-1 animate__animated animate__fadeIn animate__slow">{{ greeting }}</h1>
-      <h2 class="title is-6 animate__animated animate__fadeIn animate__slow" style="opacity:0.8"><span class="fas fa-map-marker-alt fa-fw"></span> {{ location }}</h2>
+      <h2 class="title is-6 animate__animated animate__fadeIn animate__slow" style="opacity:0.8" hidden><span class="fas fa-map-marker-alt fa-fw"></span> {{ location }}</h2>
       <div class="block"><p style="text-align:justify" class="animate__animated animate__fadeIn">{{ intro }}</p></div>
-      <div class="block"><p style="text-align:justify" class="animate__animated animate__fadeIn">{{ intro_education }}</p></div>
-      <div class="block"><p style="text-align:justify" class="animate__animated animate__fadeIn">{{ intro_career }}</p></div>
       <div class="block"><p style="text-align:justify" class="animate__animated animate__fadeIn">{{ intro_goals }}</p></div>
       <a href="experience.html" class="button is-ghost hvr-grow animate__animated animate__fadeIn animate__delay-1s">{{ experience_link }}</a>
       <a href="techstack.html" class="button is-ghost hvr-grow animate__animated animate__fadeIn animate__delay-1s">{{ techstack_link }}</a>
@@ -66,7 +64,6 @@
           <li><a href="https://bulma.io" target="_blank" rel="noopener noreferrer">{{ framework }}</a></li>
           <li><a href="https://github.com/rrombu/roman.budnik.pro" target="_blank" rel="noopener noreferrer">{{ repository }}</a></li>
           <li><a href="https://github.com/rrombu/roman.budnik.pro/actions" target="_blank" rel="noopener noreferrer">{{ pipeline }}</a></li>
-          <li><a href="https://www.vultr.com/products/cloud-compute/" target="_blank" rel="noopener noreferrer">{{ hosting }}</a></li>
         <ul>
       </nav>
     </div>
